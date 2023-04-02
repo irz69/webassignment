@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Appmy from './Appmy';
+import Github from './Github';
 import reportWebVitals from './reportWebVitals';
 import { useState } from 'react';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Appmy />
+    <Github/>
   </React.StrictMode>
 );
 
